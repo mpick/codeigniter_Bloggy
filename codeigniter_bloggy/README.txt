@@ -1,6 +1,12 @@
 EXAMPLE: http://milespickens.com/blog/
 EXAMPLE to a Single Post: http://milespickens.com/blog/title/beginning-with-github
 
+/////////////////////////////////////////////////////////////////////////////
+///SPECIAL THANKS to the Twitter Bootstrap team, the CSS came from them. 
+///---http://twitter.github.com/bootstrap/----- (twitter.com/ @mdo @fat)
+/////////////////////////////////////////////////////////////////////////////
+
+------------------BEGIN AWESOME INFO--------------------------------------------
 Ok so I'm assuming you know you're way around the CodeIgniter file structure.  
 
 Mainly what will be useful to you, in getting your blog working, will be the 
@@ -21,4 +27,5 @@ bloggy_db_sql.sql should be used to get the database structure which will
 work with the provided models. 
 
 More detailed information to come.  Please let me know if you have any issues.
+------------------END AWESOME INFO--------------------------------------------
 
