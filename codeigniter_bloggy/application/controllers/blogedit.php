@@ -14,18 +14,7 @@ class Blogedit extends CI_Controller {
 	
 	function index()
 	{
-		
-	
-	}
-	
-        /*
-         * Blog page section
-         */
-	function blog($id = null)
-	{
-		//TODO find a way to display the blog entry rows and then make links
-		//to edit each one, update tages, delete, etc. 
-		//http://twitter.github.com/bootstrap/#tables
+
 		$data['results'] = $this->blog->getBlogEntry();
 		$data['onpage'] = 'blogedit';
 		$data['subtitle'] = 'blogedit';
@@ -34,9 +23,13 @@ class Blogedit extends CI_Controller {
 		$this->load->view('topbar');
 		$this->load->view('blogedit/blog');
 		$this->load->view('footer');
-		$this->load->view('close');
+		$this->load->view('close');		
+	
 	}
 	
+        /*
+         * Blog page section
+         */
 	function blogedit($id)
 	{
 		

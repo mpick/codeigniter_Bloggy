@@ -15,36 +15,6 @@ class Blog extends CI_Controller {
 		
 	}
 
-	/*
-	 *  Template without instruction 
-	  $this->load->library('menus');
-	  $data['nav'] = $this->menus->get_nav();
-	  $data['title'] = $this->session->userdata('CompanyName').' Bereavement Application';
-	  $data['census'] = $this->session->userdata('census');
-	  $this->load->view('header',$data);
-	  $this->load->view('bereavement/page');
-	  $this->load->view('bombnav');
-	  $this->load->view('footer');
-	 * 
-	 * 
-	 * 
-	 * Template with Instruction 
-	  $this->load->library('menus');
-	  $data['instructiontitle'] = 'Instruction: ';
-	  $data['instruction'] = "you gotta go here and then click the other thing.";
-	  $data['nav'] = $this->menus->get_nav();
-	  $data['title'] = $this->session->userdata('CompanyName').' Bereavement Application';
-	  $data['census'] = $this->session->userdata('census');
-	  $this->load->view('header',$data);
-	  $this->load->view('bereavement/page');
-	  $this->load->view('bombnav');
-	  $this->load->view('instruction');
-	  $this->load->view('footer');
-	 * 
-	 * $this->load->library('form_validation');
-	 * $this->form_validation->set_rules('patient', 'Patient Name','required');
-	 * if($this->form_validation->run() == FALSE)
-	 */
 	//////BEGIN pages
 	//
 	function index($id = null)
@@ -68,9 +38,9 @@ class Blog extends CI_Controller {
 			
 	}
 	
-	function tab($id = null)
+	function topic($id = null)
 	{
-		//should come in like "/droid+3/" or "/droid_3/"
+		//TODO this will list a certain topic.  URLs will look like /topic/apple & /topic/summer-school
 		
 	}
 	

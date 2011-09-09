@@ -1,3 +1,6 @@
+EXAMPLE: http://milespickens.com/blog/
+EXAMPLE to a Single Post: http://milespickens.com/blog/title/beginning-with-github
+
 Ok so I'm assuming you know you're way around the CodeIgniter file structure.  
 
 Mainly what will be useful to you, in getting your blog working, will be the 

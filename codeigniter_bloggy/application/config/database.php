@@ -50,7 +50,7 @@ if (defined('ENVIRONMENT'))
 			$db['default']['hostname'] = 'localhost';
 			$db['default']['username'] = '';
 			$db['default']['password'] = '';
-			$db['default']['database'] = '';
+			$db['default']['database'] = 'bloggy';
 			$db['default']['dbdriver'] = 'mysql';
 			$db['default']['dbprefix'] = '';
 			$db['default']['pconnect'] = TRUE;
@@ -69,7 +69,7 @@ if (defined('ENVIRONMENT'))
 			$db['default']['hostname'] = 'localhost';
 			$db['default']['username'] = '';
 			$db['default']['password'] = '';
-			$db['default']['database'] = '';
+			$db['default']['database'] = 'bloggy';
 			$db['default']['dbdriver'] = 'mysql';
 			$db['default']['dbprefix'] = '';
 			$db['default']['pconnect'] = TRUE;
