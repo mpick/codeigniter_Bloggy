@@ -3,7 +3,7 @@ EXAMPLE to a Single Post: http://milespickens.com/blog/title/beginning-with-gith
 
 /////////////////////////////////////////////////////////////////////////////
 ///SPECIAL THANKS to the Twitter Bootstrap team, the CSS came from them. 
-///---http://twitter.github.com/bootstrap/----- (twitter.com/ @mdo @fat)
+///http://twitter.github.com/bootstrap/ (twitter.com/ @mdo @fat)
 /////////////////////////////////////////////////////////////////////////////
 
 ------------------BEGIN AWESOME INFO--------------------------------------------
