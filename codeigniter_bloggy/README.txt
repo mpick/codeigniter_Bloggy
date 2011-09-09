@@ -7,13 +7,13 @@ EXAMPLE to a Single Post: http://milespickens.com/blog/title/beginning-with-gith
 /////////////////////////////////////////////////////////////////////////////
 
 ------------------BEGIN AWESOME INFO--------------------------------------------
-Ok so I'm assuming you know you're way around the CodeIgniter file structure.  
+Ok so I'm assuming you know your way around the CodeIgniter file structure.  
 
-Mainly what will be useful to you, in getting your blog working, will be the 
+Mainly, what will be useful to you to get your blog working, will be the 
 Controllers Blog & Blogedit and also the Models Blog & Blogedit.
 
 Blogedit is going to be where you can Add, Edit, and Publish Blog Entries. 
-Blog will be the pages which are shown to the public. 
+Blog will be the pages which are viewed by the public. 
 
 You will need to incorporate your own Login process for the Blogedit pages.  I'm 
 working on a validation class and I will add it here when its done. 
