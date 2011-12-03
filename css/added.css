@@ -1,0 +1,25 @@
+/* 
+    Document   : added
+    Created on : Sep 9, 2011, 6:22:38 PM
+    Author     : mpicke
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.hero-unit h1 { 
+	font-family: 'Rochester', serif;
+	font-size: 100px;
+}
+.hero-unit p {
+    margin: 10px 0 0 0;
+}
+
+#normalSelect {
+	height: 300px;
+}
+
